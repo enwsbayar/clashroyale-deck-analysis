@@ -21,6 +21,12 @@ It helps understand which cards and deck archetypes are most effective in Clash 
 - **Least Common Cards:** Identify underused cards that rarely appear in top decks.
 - **Visualizations:** Interactive charts using `matplotlib` for clear insights.
 
+Make sure data/winner_decks.txt and data/winner_cards.txt exist.
+
+Run clash_deck_analysis.ipynb in Jupyter Notebook.
+
+Visualize card frequencies, rarity distribution, and elixir costs.
+
 ## ⚡ Dependencies
 
 - Python 3.10+
@@ -34,8 +40,3 @@ Install dependencies via pip:
 pip install pandas matplotlib requests
 
 
-Make sure data/winner_decks.txt and data/winner_cards.txt exist.
-
-Run clash_deck_analysis.ipynb in Jupyter Notebook.
-
-Visualize card frequencies, rarity distribution, and elixir costs.
